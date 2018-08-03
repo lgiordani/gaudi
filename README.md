@@ -17,7 +17,7 @@ As you are following the clean architecture model you are free to build the inte
 
 ## Origin
 
-In 2016 I wrote [Clean architectures in Python: a step-by-step example](), a detailed analysis of a clean architecture written in Python from scratch following a pure TDD methodology. Since then I created many successful projects following this model, but I quickly realised that there was a core of code that I copied from project to project (the `shared` module in the original article). So I decided to try to clean it up and to publish it as a library.
+In 2016 I wrote [Clean architectures in Python: a step-by-step example](http://blog.thedigitalcatonline.com/blog/2016/11/14/clean-architectures-in-python-a-step-by-step-example/), a detailed analysis of a clean architecture written in Python from scratch following a pure TDD methodology. Since then I created many successful projects following this model, but I quickly realised that there was a core of code that I copied from project to project (the `shared` module in the original article). So I decided to try to clean it up and to publish it as a library.
 
 The name is an homage to [Antoni Gaudí](https://en.wikipedia.org/wiki/Antoni_Gaud%C3%AD) a genius that gave the world some of the most beautiful architectural works ever conceived by men.
 
