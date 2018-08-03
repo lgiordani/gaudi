@@ -5,7 +5,7 @@
 
 A helper library for Clean Architectures in Python
 
-Full documentation available at http://gaudi.readthedocs.io/en/latest/
+Full documentation available at [http://gaudilib.readthedocs.io/en/latest/](http://gaudilib.readthedocs.io/en/latest/)
 
 ## About Gaudi
 
