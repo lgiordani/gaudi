@@ -19,7 +19,7 @@ test_requirements = [
 
 setup(
     name='gaudi',
-    version='1.0.0',
+    version='1.0.1',
     description="A helper library for Clean Architectures in Python",
     long_description=readme + '\n\n' + history,
     author="Leonardo Giordani",
