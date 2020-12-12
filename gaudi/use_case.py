@@ -25,7 +25,7 @@ class UseCase(metaclass=UseCaseMeta):
         req = {}
 
         for parameter in self._parameters:
-            if isinstance(parameter, collections.Mapping) and \
+            if isinstance(parameter, collections.abc.Mapping) and \
                     'default' in parameter:
                 req[parameter['name']] = parameter['default']
 
@@ -57,7 +57,7 @@ class UseCase(metaclass=UseCaseMeta):
         mandatory_parameters = []
 
         for parameter in self._parameters:
-            if isinstance(parameter, collections.Mapping):
+            if isinstance(parameter, collections.abc.Mapping):
                 mandatory_parameters.append(parameter['name'])
             else:
                 mandatory_parameters.append(parameter)
